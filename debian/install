@@ -1,0 +1,3 @@
+hotplug-knoppix		sbin/
+rescan-scsi-bus.sh	etc/hotplug.d/ieee1394/
+ieee1394.agent		etc/hotplug/

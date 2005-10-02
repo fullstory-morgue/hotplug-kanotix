@@ -1,0 +1,67 @@
+hotplug-kanotix (0.5.10) unstable; urgency=low
+
+  * overhaul packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon,  3 Oct 2005 01:23:16 +0200
+
+hotplug-kanotix (0.5-9) unstable; urgency=low
+
+  * fix hotplug/ usb storage handling. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon,  7 Feb 2005 01:58:08 +0100
+
+hotplug-kanotix (0.5-8) unstable; urgency=low
+
+  * increase initialization time for usb hotplug. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 27 Jan 2005 11:13:07 +0100
+
+hotplug-kanotix (0.5-7) unstable; urgency=low
+
+  * Forked for Kanotix compatibility.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Dec 2004 19:59:20 +0100
+
+hotplug-knoppix (0.5-7) unstable; urgency=low
+
+  * Commented out some useless debug output in testexist in rescan-scsi-bus.sh
+
+ -- Klaus Knopper <knopper@knopper.net>  Thu, 26 Feb 2004 21:56:26 +0100
+
+hotplug-knoppix (0.5-6) unstable; urgency=low
+
+  * Add desktop icons for firewire in the scsi scanscript
+
+ -- Klaus Knopper <knopper@knopper.net>  Thu, 22 Jan 2004 14:33:02 +0100
+
+hotplug-knoppix (0.5-5) unstable; urgency=low
+
+  * Don't attempt to rmmod usb-storage, may hang if new device is plugged in
+    while old one is deregistering
+
+ -- Klaus Knopper <knopper@knopper.net>  Wed, 21 Jan 2004 17:30:34 +0100
+
+hotplug-knoppix (0.5-4) unstable; urgency=low
+
+  * Bugfix: Wrap test-parameters in "" to avoid error message
+  * Don't run rescan-scsi on Kernel 2.6
+
+ -- Klaus Knopper <knopper@knopper.net>  Tue, 20 Jan 2004 16:37:43 +0100
+
+hotplug-knoppix (0.5-3) unstable; urgency=low
+
+  * Added firewire-rescanning package to /etc/hotplug/ieee1394.agent
+
+ -- Klaus Knopper <knopper@knopper.net>  Sat, 17 Jan 2004 02:54:33 +0100
+
+hotplug-knoppix (0.5-2) unstable; urgency=low
+
+  * Changed rebuildfstab -u knoppix -g knoppix
+
+ -- Klaus Knopper <knopper@knopper.net>  Wed, 17 Sep 2003 19:08:04 +0200
+
+hotplug-knoppix (0.5-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Klaus Knopper <knopper@knopper.net>  Tue, 26 Nov 2002 23:14:58 +0100
