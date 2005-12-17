@@ -2,14 +2,12 @@ Source: hotplug-kanotix
 Section: admin
 Priority: optional
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends-Indep: cdbs (>= 0.4.23-1.1), build-essential, debhelper (>= 4.1.0)
+Build-Depends-Indep: cdbs (>= 0.4.23-1.1), debhelper (>= 5.0.0)
 Standards-Version: 3.6.2
 
 Package: hotplug-kanotix
 Architecture: all
 Depends: hotplug, rebuildfstab-kanotix, mkdesktophdicons-kanotix
-Provides: hotplug-knoppix
-Replaces: hotplug-knoppix
 Description: hotplug handler for KANOTIX
  Scans multiple LUNs for USB Multicard-Readers, adds entries to /etc/fstab
  and creates desktop icons for KDE and GNOME.

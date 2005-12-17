@@ -1,8 +1,17 @@
+hotplug-kanotix (0.5.11) unstable; urgency=low
+
+  * remove cdbs auto-update feature.
+  * bump compat level to 5.
+  * clean up debian/control.
+  * remove knoppix virtual packages.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 01:47:54 +0100
+
 hotplug-kanotix (0.5.10) unstable; urgency=low
 
   * overhaul packaging.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon,  3 Oct 2005 01:23:16 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 01:47:45 +0100
 
 hotplug-kanotix (0.5-9) unstable; urgency=low
 
