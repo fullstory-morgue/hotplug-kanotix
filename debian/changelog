@@ -2,8 +2,9 @@ hotplug-kanotix (0.5.12) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
   * orphan package.
+  * bump compat level to 5.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 17 Dec 2005 01:49:35 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 12 Mar 2006 00:15:02 +0100
 
 hotplug-kanotix (0.5.11) unstable; urgency=low
 
